@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors and macOS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and generated artifacts
+*.log
+*.zip
